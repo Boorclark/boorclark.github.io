@@ -60,9 +60,11 @@ const Home = () => {
             timing="ease"
             iteration="1"
             fillMode="none">
-            I'm a software developer and student who is learning to build exceptional user-focused applications and digital experiences. 
-            Currently, I am achieving this through developing an application for Berea College's CELTS program alongside a 
-            team of excellent software developers.
+            I'm a software developer who is learning to build 
+            exceptional user-focused applications and digital experiences. Currently, I am achieving this 
+            through developing tools and applications as the IT Support Director for Berea College. This summer, 
+            I am getting the opportunity to expand my skillset as a Software Developer Intern for the <text className='text-orange-600'>National Information 
+            Solutions Cooperative</text>!
           </MovingComponent>
         </p>
         <div>

@@ -2,6 +2,12 @@ import React from 'react';
 import Logo from '../assets/logo.png'
 import bereaCollege from '../assets/bereaCollege.jpg'
 import Eco from '../assets/ecoB4C.jpg'
+import WHD from '../assets/WHDparser.PNG'
+import Mold from '../assets/mold.png'
+import StreetAssist from '../assets/streetAssist.png'
+
+
+
 
 const Work = () => {
   return (
@@ -35,7 +41,62 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>         
+          </div>
+          <div
+            style={{ backgroundImage: `url(${StreetAssist})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Street Assist
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/Boorclark/Street-Assist'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div> 
+          <div
+            style={{ backgroundImage: `url(${Mold})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Air Quality Sensor
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/Boorclark/Mold-Sensor'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+            
+          </div>       
+          <div
+            style={{ backgroundImage: `url(${WHD})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Powershell CSV Parser
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://gist.github.com/Boorclark/fa0864066cd22549673269c8badf8690'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>  
           <div
             style={{ backgroundImage: `url(${Eco})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'

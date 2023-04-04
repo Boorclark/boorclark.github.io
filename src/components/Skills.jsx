@@ -8,6 +8,12 @@ import Bootstrap from '../assets/bootstrap.png'
 import Flask from '../assets/flask.png'
 import Python from '../assets/python.png'
 import Git from '../assets/git.png'
+import PowerShell from '../assets/powershell.png'
+import CPP from '../assets/C++.png'
+import Golang from '../assets/golang.png'
+import ReactJS from '../assets/react.png'
+
+
 
 
 const Skills = () => {
@@ -23,6 +29,22 @@ const Skills = () => {
               <div className='hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
                 <p className='my-4'>PYTHON</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={CPP} alt="HTML icon" />
+                <p className='my-4'>C++</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Golang} alt="HTML icon" />
+                <p className='my-4'>GOLANG</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={PowerShell} alt="HTML icon" />
+                <p className='my-4'>POWERSHELL</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={ReactJS} alt="HTML icon" />
+                <p className='my-4'>REACT</p>
               </div>
               <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="JAVASCRIPT icon" />
