@@ -21,8 +21,7 @@ const About = () => {
               I'm a senior computer science student at Berea College who is
               passionate about developing excellent software that can improve
               the quality of life of those who use it. I hope to continue to
-              delve into this passion throughout my education and career through
-              internships, employment opportunities, and project building.
+              delve into this passion through employment opportunities and project building.
             </p>
           </div>
         </div>

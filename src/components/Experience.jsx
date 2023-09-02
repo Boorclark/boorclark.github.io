@@ -75,7 +75,7 @@ const Experience = () => {
             className="vertical-timeline-element--education"
             contentStyle={{ background: "rgb(234, 88, 12)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(234, 88, 12)" }}
-            date="August 2022 - June 2023"
+            date="August 2022 - January 2023"
           >
             <h3 className="vertical-timeline-element-title">
               IT Support Manager
