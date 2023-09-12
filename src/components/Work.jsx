@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../assets/logo.png";
-import bereaCollege from "../assets/bereaCollege.jpg";
 import Eco from "../assets/ecoB4C.jpg";
 import WHD from "../assets/WHDparser.PNG";
 import Mold from "../assets/mold.png";
@@ -25,34 +24,18 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                CELTS
+              CSC 426 Blog
               </span>
               <div className="pt-8 text-center">
                 <a href="https://www.blogger.com/blog/posts/6008878360572385628">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    CSC 426 Blog
+                    Blog
                   </button>
                 </a>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${bereaCollege})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                CELTS
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://github.com/BCStudentSoftwareDevTeam/celts">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div
             style={{ backgroundImage: `url(${StreetAssist})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
